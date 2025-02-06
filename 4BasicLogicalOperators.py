@@ -16,6 +16,14 @@ b = int(input())
 
 print(f"AND =  {a and b}")
 
-print(f"OR = {a or b}")   #if a=0(false) b = 3/5/66 anything (its true) 0|1 = 1 is OR condition so ans is (b) if a = 9 and b = 8 then ans =9 greater value contains more number of true values so it gets printed
+print(f"OR = {a or b}")  
 
-print(f"Not = {not a}")   #if a = 1 (its true) so ans/ output wld be false   if a=3 as all values of integer except 0 are true so ans wld be false
+print(f"Not = {not a}")   
+
+# AND understanding
+#if a=0(false) b = 3/5/66 anything (its true) 0|1 = 1 is OR condition so ans is (b)
+#if a = 9 and b = 8 then ans =9 greater value contains more number of true values so it gets printed
+
+# OR understanding
+#if a = 1 (its true) so ans/ output wld be false   
+# if a=3 as all values of integer except 0 are true so ans wld be false

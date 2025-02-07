@@ -1,3 +1,5 @@
+# Given three numbers a, b, and c. You need to find which is the greatest of them all.
+
 a = int(input())
 b = int(input())
 c = int(input())

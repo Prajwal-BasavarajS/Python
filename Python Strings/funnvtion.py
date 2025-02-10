@@ -13,3 +13,15 @@ def fun(n):
 
 res = fun("hello")
 print(res)  
+
+def fun1(msg):
+    def fun2():
+        # Using the outer function's message
+        return f"Message: {msg}"
+    return fun2
+
+# Getting the inner function
+fun3 = fun1("Hello, World!")
+
+# Calling the inner function
+print(fun3())  
